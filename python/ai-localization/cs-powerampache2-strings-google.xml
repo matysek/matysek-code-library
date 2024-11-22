@@ -1,0 +1,182 @@
+<resources>
+    <string name="notification_channel_description">Zobrazuje aktuálně přehrávanou hudbu</string>
+    <string name="coming_soon">Již brzy</string>
+
+    <string name="albumDetailScreen_infoSection_year">Rok</string>
+    <string name="albumDetailScreen_infoSection_songs">Skladby</string>
+    <string name="albumDetailScreen_infoSection_time">Celkový čas</string>
+    <string name="playlistDetailScreen_infoSection_avgRating">Průměrné hodnocení</string>
+    <string name="playlistItem_songCount">%s skladeb</string>
+    <string name="topBar_search_hint">Hledat skladby, alba, umělce, seznamy skladeb</string>
+    <string name="main_tab_title_albums">Alba</string>
+    <string name="main_tab_title_home">Domovská stránka</string>
+    <string name="main_tab_title_songs">Skladby</string>
+    <string name="main_tab_title_artists">Umělci</string>
+    <string name="main_tab_title_playlists">Seznamy skladeb</string>
+    <string name="loginScreen_username">Uživatelské jméno</string>
+    <string name="loginScreen_signUp_email">E-mail</string>
+    <string name="loginScreen_fullname">Celé jméno (volitelné)</string>
+    <string name="loginScreen_password">Heslo</string>
+    <string name="loginScreen_password_repeat">Potvrdit heslo</string>
+    <string name="loginScreen_register_success">Uživatel byl úspěšně zaregistrován\nNyní se můžete přihlásit pomocí svých přihlašovacích údajů\nPotvrďte prosím svůj e-mail, pokud to server vyžaduje</string>
+    <string name="loginScreen_server_url">Adresa URL serveru</string>
+    <string name="loginScreen_signUp_requiredField">Toto je povinné pole</string>
+    <string name="loginScreen_auth_token">Ověřovací token</string>
+    <string name="loginScreen_auth_token_warning">Přihlášení tokenu ověření funguje se servery 6.4 a vyšší</string>
+    <string name="loginScreen_login">Přihlášení</string>
+    <string name="loginScreen_signup">Zaregistrujte se</string>
+    <string name="loginScreen_demo_server">Ukázka</string>
+    <string name="loginScreen_loading_authenticating">Připojování…</string>
+    <string name="loginScreen_dogmazic_server">DEMO hudebního serveru Dogmazic</string>
+    <string name="loginScreen_textFields_warning">Kompatibilní se serverem verze 4 a vyšší.\nTestováno na serveru verze 6</string>
+    <string name="loginScreen_warning">Chcete-li se připojit k vlastnímu serveru, stáhněte si plnou verzi Power Ampache 2</string>
+
+    <string name="home_section_title_recent">Nedávno přehrané</string>
+    <string name="home_section_title_flagged">Oblíbené</string>
+    <string name="home_section_title_frequent">Často přehrávané</string>
+    <string name="home_section_title_highest">Nejvyšší hodnocení</string>
+    <string name="home_section_title_newest">Nově přidané</string>
+    <string name="home_section_title_playlists">Seznamy skladeb</string>
+    <string name="home_section_title_moreAlbums">Další alba</string>
+    <string name="home_section_title_loading">Načítání</string>
+    <string name="home_artist_subtitle_item">Umělec</string>
+
+    <!-- řetězce popisu obsahu-->
+    <string name="back_content_description">Zpět</string>
+    <string name="search_content_description">Hledat</string>
+    <string name="menu_content_description">Rozbalovací nabídka</string>
+
+    <!-- CHYBOVÉ zprávy-->
+    <string name="error_io_exception">Nelze načíst data, jste připojeni k internetu?\nPokud problém přetrvává, zkuste aplikaci ukončit a znovu otevřít</string>
+    <string name="error_http_exception">Nelze načíst data, jste připojeni k internetu?\nPokud problém přetrvává, zkuste aplikaci ukončit a znovu otevřít</string>
+    <string name="error_empty_result">Žádné výsledky k zobrazení nebo se pokoušíte přidat nebo odebrat něco, co nebylo na serveru nalezeno</string>
+    <string name="error_duplicate">Duplicitní záznam</string>
+    <string name="error_user_fetch">Při načítání vašeho uživatele ze serveru došlo k problému</string>
+
+    <string name="error_playback_exception">Problémy s přehráváním této stopy.</string>
+    <string name="share_song_cannot_find">Nelze najít sdílenou skladbu</string>
+
+
+    <string name="crash_mail_subject">Hlášení o selhání</string>
+    <string name="crash_mail_body">Data zprávy o selhání. Díky</string>
+
+    <string name="error_offline">Nelze se připojit k vašemu serveru</string>
+    <string name="offlineMode_switch_title">Režim offline</string>
+
+    <!-- NASTAVENÍ -->
+    <string name="quality_veryHigh_title">Velmi vysoká kvalita</string>
+    <string name="quality_veryHigh_subtitle">320 kb/s nebo flac (bez překódování)</string>
+    <string name="quality_high_title">Vysoká kvalita</string>
+    <string name="quality_high_subtitle">256 kb/s</string>
+    <string name="quality_medium_title">Střední kvalita</string>
+    <string name="quality_medium_subtitle">192 kb/s</string>
+    <string name="quality_mediumLow_title">Středně nízká kvalita</string>
+    <string name="quality_mediumLow_subtitle">128 kb/s</string>
+    <string name="quality_low_title">Nízká kvalita</string>
+    <string name="quality_low_subtitle">96 kb/s</string>
+    <string name="theme_system_title">Systémový motiv</string>
+    <string name="theme_dark_title">Tmavý</string>
+    <string name="theme_light_title">Světlo</string>
+    <string name="theme_system_materialYou_title">MaterialYou System</string>
+    <string name="theme_dark_materialYou_title">MaterialYou Dark</string>
+    <string name="theme_light_materialYou_title">MaterialYou Light</string>
+    <string name="settings_equalizer">Ekvalizér</string>
+    <string name="settings_normalizeVolume_title">Normalizovat hlasitost</string>
+    <string name="settings_offlineMode_title">Režim offline</string>
+    <string name="settings_offlineMode_subtitle">Povolit režim offline</string>
+    <string name="settings_normalizeVolume_subtitle">Vynutit stejnou úroveň hlasitosti pro všechny stopy</string>
+    <string name="settings_monoAudio_title">Mono zvuk</string>
+    <string name="settings_monoAudio_subtitle">Levý a pravý reproduktor budou přehrávat stejný zvuk</string>
+    <string name="settings_smartDownloads_title">Inteligentní stahování</string>
+    <string name="settings_smartDownloads_subtitle">Automaticky stahovat nejhranější skladby, když je telefon nečinný</string>
+    <string name="settings_checkUpdatesNow_title">Zkontrolovat aktualizace</string>
+    <string name="settings_autoCheckUpdates_title">Automaticky kontrolovat aktualizace</string>
+    <string name="settings_debugLogs_title">Protokoly ladění</string>
+    <string name="settings_enableDebugLogging_title">Povolit anonymní protokolování ladění</string>
+    <string name="settings_enableDebugLogging_subtitle">Pošle vývojáři trasování zásobníku selhání a chyb za účelem vyřešení problémů s aplikací</string>
+    <string name="settings_deleteDownloads_title">Smazat všechna stažená data</string>
+    <string name="settings_deleteDownloads_subtitle">Tímto smažete všechny skladby, které jste stáhli</string>
+    <string name="settings_deleteDownloads_success">Veškerá vaše offline hudba byla smazána</string>
+    <string name="settings_deleteDownloads_fail">Při mazání vaší offline hudby došlo k problému. Pokud problém přetrvává, kontaktujte vývojáře, aby chybu opravili</string>
+    <string name="settings_hideDonationButtonsMenu_title">Skrýt tlačítka pro dary v nabídce</string>
+    <string name="settings_serverInfo_title">Server</string>
+    <string name="settings_serverInfo_version">Verze</string>
+    <string name="settings_serverInfo_compatible">Kompatibilní</string>
+    <string name="settings_userInfo_username">Uživatelské jméno</string>
+    <string name="settings_userInfo_fullName">Celé jméno</string>
+    <string name="settings_userInfo_email">E-mail</string>
+    <string name="settings_userInfo_website">Web</string>
+    <string name="settings_userInfo_state">Stav</string>
+    <string name="settings_userInfo_city">Město</string>
+    <string name="settings_userInfo_id">ID</string>
+    <string name="player_buttonText_artist">Umělec</string>
+    <string name="player_buttonText_album">Album</string>
+    <string name="player_buttonText_add">Přidat</string>
+    <string name="download">Stáhnout</string>
+    <string name="player_buttonText_download">@string/download</string>
+    <string name="player_buttonText_share">Sdílet</string>
+    <string name="player_buttonText_info">Informace</string>
+    <string name="player_queue_upNext">Další</string>
+    <string name="player_queue_lyrics">Texty písní</string>
+    <string name="logout_offline_warning">Před odhlášením vypněte režim offline</string>
+    <string name="offline_noData_warning">Ještě jste si nestáhli žádnou skladbu</string>
+
+    <!--- DIALOGY -->
+    <string name="miniPlayer_reset_alert_message">DLOUHÝM STISKNUTÍM zastavení přehrávání hudby a resetování fronty</string>
+    <string name="miniPlayer_reset_alert_title">STOP/RESET</string>
+    <string name="dialog_create">VYTVOŘIT</string>
+    <string name="warning_playlist_download">Před stažením počkejte, až se seznam stop úplně načte</string>
+    <string name="warning_playlist_server">Přidávání skladeb, pokud je verze vašeho serveru nižší než 6.3, může tato operace trvat přibližně minutu</string>
+    <string name="warning_playlist_adding">Skladby se přidávají do vašeho seznamu skladeb.\nOpuštěním této obrazovky se operace přeruší</string>
+    <string name="warning_playlist_adding_title">Opustit obrazovku?</string>
+    <string name="warning_playlist_adding_stay">Zůstaňte</string>
+    <string name="warning_playlist_adding_leave">Přesto opustit</string>
+    <string name="warning_song_remove_title">ODSTRANIT SKLADBU</string>
+
+    <!-- Rozbalovací nabídka skladeb -->
+    <string name="dropdownMenu_item_download">Stáhnout</string>
+    <string name="dropdownMenu_item_export">Exportovat staženou skladbu</string>
+    <string name="dropdownMenu_item_playNext">Přehrát jako další</string>
+    <string name="dropdownMenu_item_addToQueue">Přidat do fronty</string>
+    <string name="dropdownMenu_item_addToPlaylist">Přidat do seznamu videí</string>
+    <string name="dropdownMenu_item_goToAlbum">Přejít do alba</string>
+    <string name="dropdownMenu_item_goToArtist">Přejít na interpreta</string>
+    <string name="dropdownMenu_item_share">Sdílet</string>
+
+    <!---...-->
+    <string name="about_flavour">Příchuť</string>
+    <string name="version_quote_title">Citace verze</string>
+    <string name="about_appVersion_title">Verze aplikace</string>
+    <string name="about_license_title">Licence</string>
+    <string name="about_contact_title">Kontaktujte mě na telegramu a mastodontu</string>
+    <string name="about_sourceCode_title">Zdrojový kód</string>
+    <string name="about_considerDonating">Podpořte projekt darem!\nOdkazy na webu:</string>
+
+    <!---Položky hlavní nabídky-->
+    <string name="menu_drawer_settings">Nastavení</string>
+    <string name="menu_drawer_library">Knihovna</string>
+    <string name="menu_drawer_genres">Žánry</string>
+    <string name="menu_drawer_home">Domů</string>
+    <string name="menu_drawer_about">O aplikaci</string>
+    <string name="menu_drawer_logout">Odhlásit se</string>
+    <string name="menu_drawer_offline">Skladby offline</string>
+
+    <string name="settings_theme_title">Vyberte si motiv</string>
+    <string name="settings_quality_title">Kvalita streamování</string>
+    <string name="loginScreen_useAuthToken">Použít ověřovací token</string>
+    <string name="queue">Fronta</string>
+    <!-- následující název seznamu skladeb musí být velkými písmeny -->
+    <string name="addToPlaylistOrQueueDialog_playlists">SEZNAMY VIDEÍ</string>
+    <string name="addToPlaylistOrQueueDialog_createNew">Vytvořit nový</string>
+    <string name="addToPlaylistOrQueueDialog_addQueue">Přidat do aktuální fronty</string>
+    <string name="downloaded_snackbar_title">%s staženo</string>
+
+    <!-- JEŠTĚ NEPŘIDÁNO -->
+    <string name="home_playlist_highest_title">Nejlépe hodnocené skladby</string>
+    <string name="home_playlist_frequent_title">Často přehrávané skladby</string>
+    <string name="home_playlist_recent_title">Nedávno přehrávané skladby</string>
+    <string name="home_playlist_favourites_title">Oblíbené skladby</string>
+
+    <string name="dialog_deletePlaylist_title">SMAZAT SEZNAM SKLADEB</string>
+    <string name="dialog_deletePlaylist_text">Smazat %s?</string>
+</resources>
